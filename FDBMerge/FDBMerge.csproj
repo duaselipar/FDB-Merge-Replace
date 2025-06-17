@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>fdbm.ico</ApplicationIcon>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>false</SelfContained>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <AssemblyName>FDB Merge &amp; Replace</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="fdbm.ico" />
+  </ItemGroup>
+
+</Project>
