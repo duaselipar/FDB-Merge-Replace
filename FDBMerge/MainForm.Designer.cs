@@ -341,7 +341,9 @@
             Controls.Add(lblPreview);
             Controls.Add(gridPreview);
             Controls.Add(btnSave);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FDB File Merge & Replace by DuaSelipar";
